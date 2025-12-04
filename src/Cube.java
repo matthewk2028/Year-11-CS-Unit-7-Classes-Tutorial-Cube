@@ -5,7 +5,7 @@ public class Cube {
         this.side = 1;
     }
 
-    publc Cube(int side) {
+    public Cube(int side) {
         validSide(side);
         this.side = side;
     }
@@ -16,11 +16,11 @@ public class Cube {
         }
     }
 
-    public double calculateVolume() {
+    public int calculateVolume() {
         return side * side * side;
     }
 
-    public double calculateSurfaceArea() {
+    public int calculateSurfaceArea() {
         return side * side * 6;
     }
 
